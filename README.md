@@ -10,7 +10,7 @@ Visual Studio Code y Unity.
 2. Yubidsa
 3. Adrian
 4. Alejandro
-5. Erick
+5. Erick Ferrel Limachi
 
 ## Objetivo
 
