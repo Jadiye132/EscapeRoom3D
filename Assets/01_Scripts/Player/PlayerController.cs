@@ -4,10 +4,11 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
 
-    private void Update()
-    {
-        Move();
-    }
+private void Update()
+{
+    Move();
+    Debug.Log("Movement system active");
+}
 
     private void Move()
     {
