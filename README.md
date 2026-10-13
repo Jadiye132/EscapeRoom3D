@@ -9,7 +9,7 @@ Visual Studio Code y Unity.
 1. Ayelen
 2. Yubidsa
 3. Adrian
-4. Alejandro
+4. Alejandro Lazcano Estrella 
 5. Erick
 
 ## Objetivo
