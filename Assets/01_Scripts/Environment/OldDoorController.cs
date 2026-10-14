@@ -17,5 +17,7 @@ public class OldDoorController : MonoBehaviour
         isOpen = !isOpen;
         transform.localRotation =
             Quaternion.Euler(0f, isOpen ? 90f : 0f, 0f);
+
+        Debug.Log(isOpen ? "Door opened" : "Door closed");
     }
 }
