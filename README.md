@@ -30,3 +30,14 @@ obtener una llave y escapar.
 
 Se eliminó el mensaje repetitivo de movimiento de la consola.
 Se mantienen el movimiento del jugador y la detección de la tecla E.
+
+## Controles de prueba
+
+- WASD o flechas: mover al jugador.
+- E: ejecutar la comprobación de interacción.
+- O: alternar la apertura de la puerta.
+- P: comprobar el código del puzzle.
+
+Para probar el puzzle, selecciona PuzzleSystem y modifica
+Entered Code en el Inspector durante Play.
+El código correcto configurado es 1234.
