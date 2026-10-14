@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        Initialize(); // BASE
+Initialize(); // CASO 16 A
     }
 
     public void Initialize()
