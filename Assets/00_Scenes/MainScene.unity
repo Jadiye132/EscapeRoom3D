@@ -725,10 +725,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2710317947673316482, guid: e7bdeb90ef3574ffebfcdb73fa610b57, type: 3}
       propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710317947673316482, guid: e7bdeb90ef3574ffebfcdb73fa610b57, type: 3}
+      propertyPath: speed
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6416528394383340617, guid: e7bdeb90ef3574ffebfcdb73fa610b57, type: 3}
       propertyPath: m_LocalPosition.x
+      value: 2
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6416528394383340617, guid: e7bdeb90ef3574ffebfcdb73fa610b57, type: 3}
@@ -769,6 +774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464752287303163527, guid: e7bdeb90ef3574ffebfcdb73fa610b57, type: 3}
       propertyPath: m_Name
+      value: Player_Caso15B
       value: Player_Caso15B
       objectReference: {fileID: 0}
     m_RemovedComponents: []
