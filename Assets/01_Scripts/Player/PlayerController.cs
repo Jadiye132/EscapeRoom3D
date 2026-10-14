@@ -1,25 +1,33 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+[DisallowMultipleComponent]
+public sealed class PlayerController : MonoBehaviour
 {
-    public float speed = 5f;
+    [SerializeField, Min(0f)] private float speed = 5f;
 
     private void Update()
     {
         Move();
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("Interaction key pressed");
-        }
     }
 
     private void Move()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        Vector3 movement = new Vector3(
+            Input.GetAxisRaw("Horizontal"),
+            0f,
+            Input.GetAxisRaw("Vertical"));
 
-        Vector3 movement = new Vector3(h, 0f, v);
-        transform.Translate(movement * speed * Time.deltaTime);
+        if (movement.sqrMagnitude > 1f)
+        {
+            movement.Normalize();
+        }
+
+        if (movement.sqrMagnitude <= 0f)
+        {
+            return;
+        }
+
+        transform.position += movement * speed * Time.deltaTime;
+        transform.rotation = Quaternion.LookRotation(movement, Vector3.up);
     }
 }
