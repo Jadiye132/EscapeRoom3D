@@ -4,12 +4,13 @@ public class PuzzleManager : MonoBehaviour
 {
     [SerializeField] private int correctCode = 1234;
     [SerializeField] private int enteredCode;
+    [SerializeField] private KeyCode solveKey = KeyCode.P;
 
     private bool isSolved;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(solveKey))
         {
             CheckCode(enteredCode);
         }
