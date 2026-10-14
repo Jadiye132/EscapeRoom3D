@@ -25,3 +25,8 @@ obtener una llave y escapar.
 - Visual Studio Code
 - Git
 - GitHub
+
+## Actualización del controlador
+
+Se eliminó el mensaje repetitivo de movimiento de la consola.
+Se mantienen el movimiento del jugador y la detección de la tecla E.
