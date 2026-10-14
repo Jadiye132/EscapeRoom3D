@@ -17,15 +17,15 @@ public class PuzzleManager : MonoBehaviour
 
     public bool CheckCode(int code)
     {
-        if (isSolved)
-        {
-            return true;
-        }
-
         if (code != correctCode)
         {
             Debug.Log("Incorrect puzzle code");
             return false;
+        }
+
+        if (isSolved)
+        {
+            return true;
         }
 
         isSolved = true;
