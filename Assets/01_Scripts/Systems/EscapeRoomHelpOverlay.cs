@@ -19,11 +19,12 @@ public class EscapeRoomHelpOverlay : MonoBehaviour
             return;
         }
 
-        GUI.Box(new Rect(16f, 16f, 270f, 140f), "CONTROLES DEL JUEGO");
-        GUI.Label(new Rect(30f, 50f, 240f, 90f),
+        GUI.Box(new Rect(16f, 16f, 440f, 180f), "CONTROLES DEL JUEGO");
+        GUI.Label(new Rect(30f, 50f, 410f, 130f),
             "WASD / Flechas: moverse\n" +
             "E: interactuar\n" +
             "O: puerta\n" +
-            "P: comprobar codigo");
+            "P: comprobar codigo\n\n" +
+            "Pulsa H para ocultar o volver a mostrar esta ayuda.");
     }
 }
