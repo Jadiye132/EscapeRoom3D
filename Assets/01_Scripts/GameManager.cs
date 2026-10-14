@@ -6,7 +6,11 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+<<<<<<< HEAD
 Initialize(); // CASO 16 B
+=======
+Initialize(); // CASO 16 A
+>>>>>>> caso16-a-practica
     }
 
     public void Initialize()
