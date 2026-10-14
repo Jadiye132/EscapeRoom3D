@@ -23,3 +23,6 @@ Thumbs.db
 
 sysinfo.txt
 *.slnx
+
+# Archivos temporales del laboratorio
+/TempLaboratorio/
